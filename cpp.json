@@ -1,0 +1,213 @@
+{
+  "Kundan Snippets": {
+    "prefix": "cpkk",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "// this is My codes library..",
+      "using namespace std;",
+      " ",
+      "typedef double long ld;",
+      "typedef long long ll;",
+      "typedef std::vector<int> vi;",
+      "typedef std::pair<int, int> pii;",
+      "typedef std::pair<long, long> pll;",
+      "typedef std::vector<std::vector<int>> vvi;",
+      "typedef std::vector<pii> vpii;",
+      "typedef std::vector<vector<ll>> vvll;",
+      "typedef std::vector<ll> vll;",
+      "typedef std::vector<vector<char>> vvc;",
+      " ",
+      "#define nline \"\\n\"",
+      "#define pb push_back //vector,deque, ",
+      "#define po pop_back",
+      "//#define eb emblace_back",
+      "#define pf push_front",
+      "//#define ef embalce_front",
+      "//This is Kundan's Code",
+      "#define MOD 1000000007",
+      "#define int int64_t",
+      "#define F first // pair",
+      "#define S second",
+      "#define mp make_pair",
+      "#define mt make_tuple",
+      " ",
+      " ",
+      " ",
+      "// ❤️‍🔥😉😉😉😹😹😔😔😔.............Code is form here.❤️‍🔥🧠🏋️🏋️..................",
+
+      "// ❤️‍🔥😉😉😉😹😹😔😔😔.............Code is form here.❤️‍🔥🧠🏋️🏋️..................",
+      " ",
+      " ",
+      "void solve(){",
+      " ",
+      "}",
+      " ",
+      "// ❤️‍🔥😉😉😉😹😹😔😔😔.............Code is form here.❤️‍🔥🧠🏋️🏋️..................",
+
+
+      "// ❤️‍🔥😉😉😉😹😹😔😔😔.............Code is form here.❤️‍🔥🧠🏋️🏋️..................",
+
+      "int32_t main() {",
+      "	ios_base::sync_with_stdio(false); ",
+      "	cin.tie(NULL) ;",
+      "	cout.tie(NULL);",
+      "	ll t=1;",
+      "	//cin>>t;",
+      "	//assert(t<=100);",
+      "	while(t--){",
+      "//solve();",
+      "    // ll n; cin>>n;",
+      "   //vi v; for(int i=0;i<n;i++){int x; cin>>x; v.pb(x);}",
+      "		",
+      "		",
+      "	}",
+      "	return 0;",
+      "}"
+    ],
+    "description": "Kundan Snippets"
+  },
+  
+  "Kundan testing": {
+    "prefix": "cpt",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+  
+      "int32_t main() {",
+      "	ios_base::sync_with_stdio(false); ",
+      "	cin.tie(NULL) ;",
+      "	cout.tie(NULL);", 
+      "		",
+      "		",
+      "	return 0;",
+      "}"
+    ],
+    "description": "Kundan test."
+  },
+  
+  "Kundan basic": {
+    "prefix": "cpb",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "#include <iostream>",
+      "#include <vector>",
+      "#include <set>",
+      "#include <unordered_map>",
+      "#include <functional>",
+      "#include <stack>",
+      "#include <queue>",
+      "#include <string>",
+      "#include <sstream>",
+      "#include <algorithm>",
+      "#include <map>",
+      "#include <unordered_set>",
+      "#include <math.h>",
+      "using namespace std;",
+  
+      "int32_t main() {",
+      "	ios_base::sync_with_stdio(false); ",
+      "	cin.tie(NULL) ;",
+      "	cout.tie(NULL);",
+      " ",
+      " ",
+      "	return 0;",
+      "}"
+    ],
+    "description": "Kundan basic"
+  },
+  
+  "Kundan Interview ": {
+    "prefix": "cpi",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "int sumofArr(vector<int> v){",
+      "    int ans = 0;",
+      "    for (auto it : v)   ans+=it;",
+      "    return ans;",
+      "}",
+      "bool isprime(int t){",
+      "    bool flag = 1;",
+      "    for (int i = 2; i*i < t; i++) {",
+      "        if (i%t == 0)",
+      "            flag = 0;",
+      "    }",
+      "    return flag;",
+      "}",
+      "int maxElem(std::vector<int> a){",
+      "    std::sort(a.begin(), a.end());",
+      "    return a[a.size()-1];",
+      "}",
+      "int minElem(std::vector<int> a){",
+      "    std::sort(a.begin(), a.end());",
+      "    return a[0];",
+      "}",
+  
+      "int32_t main() {",
+      "	ios_base::sync_with_stdio(false); ",
+      "	cin.tie(NULL) ;",
+      "	cout.tie(NULL);",
+      " ",
+      " ",
+      "	return 0;",
+      "}"
+    ],
+    "description": "Kundan interview"
+  },
+  "main function": {
+    "prefix": "maink",
+    "body": [
+      "int main()",
+      "{",
+      "    ios_base::sync_with_stdio(false);",
+      "    cin.tie(NULL);",
+      "    cout.tie(NULL);",
+      "	int t = 1;",
+      "	//cin >> t;",
+      "	while (t--) solve();",
+      "	",
+      "	return 0;",
+      "}"
+    ],
+    "description": "main function"
+  },
+  "freqk": {
+    "prefix": "freqk",
+    "body": [
+      "map<ll,ll> freq;// ! map stores key: value pair ( like data with freqency ) or( data with indexs)",
+      "  for(int i=0;i<n;i++){",
+      "    ll x;",
+      "    cin>>x;",
+      "    freq[x]++;",
+      "  }"
+    ],
+    "description": "freqk"
+  },
+  "Basic Programming ": {
+    "prefix": "basic",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "int main() {",
+      "		",
+      "		",
+      "	return 0;",
+      "}"
+    ],
+    "description": "Kundan BASiC"
+  },
+  "Basic Programming ": {
+    "prefix": "hello",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "int main() {",
+      "	cout<<"Hello World"<<endl;	",
+      "		",
+      "	return 0;",
+      "}"
+    ],
+    "description": "Kundan BASiC"
+
+  }
+}

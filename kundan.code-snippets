@@ -1,0 +1,32 @@
+{
+	"Print to console": {
+        "prefix": "CP",
+        "body": [
+            "#include <iostream>",
+            "#include <algorithm>",
+            "#include <cmath>",
+            "#include <climits>",
+            "#include <vector>",
+            "#include <map>",
+            "#include <set>",
+            "#include <queue>",
+            "#include <stack>",
+            "#define ll long long int",
+            "using namespace std;",
+            "int main()",
+            "{",
+            "\tios_base::sync_with_stdio(false);",
+            "\tcin.tie(NULL);",
+            "\tcout.tie(NULL);",
+            "\tint T;",
+            "\tcin>>T;",
+            "\twhile (T--)",
+            "\t{",
+            "\t\t$1",
+            "\t}",
+            "\treturn 0;",
+            "}"
+        ],
+        "description": "Log output to console"
+    }
+}
