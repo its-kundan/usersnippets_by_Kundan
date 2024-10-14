@@ -1,0 +1,111 @@
+{
+    "Pranjal Snippets": {
+      "prefix": "jspk",
+      "body": [
+        "// This is Pranjal's JavaScript library",
+        "const mod = 1000000007;",
+        "const nline = '\\n';",
+        "const pushBack = (arr, el) => arr.push(el);",
+        "const popBack = (arr) => arr.pop();",
+        "const pushFront = (arr, el) => arr.unshift(el);",
+        "const makePair = (a, b) => [a, b];",
+        "const solve = () => {",
+        "    // Your code here",
+        "}",
+        " ",
+        "//❤️‍🔥😉😉😉😹😹😔😔😔.............Code is from here.❤️‍🔥🧠🏋️🏋️..................",
+        "",
+        "//❤️‍🔥😉😉😉😹😹😔😔😔.............Code is from here.❤️‍🔥🧠🏋️🏋️.................."
+      ],
+      "description": "Pranjal Snippets"
+    },
+  
+    "Pranjal testing": {
+      "prefix": "jst",
+      "body": [
+        "console.log('Testing JavaScript Snippet');",
+        "const test = () => {",
+        "    // Test function",
+        "}",
+        "test();"
+      ],
+      "description": "Pranjal test."
+    },
+  
+    "Pranjal basic": {
+      "prefix": "jsb",
+      "body": [
+        "// Pranjal's Basic JavaScript Setup",
+        "const main = () => {",
+        "    console.log('Hello, World!');",
+        "}",
+        "main();"
+      ],
+      "description": "Pranjal basic"
+    },
+  
+    "Pranjal Interview": {
+      "prefix": "jsi",
+      "body": [
+        "const sumOfArray = (arr) => {",
+        "    return arr.reduce((a, b) => a + b, 0);",
+        "};",
+        "const isPrime = (n) => {",
+        "    for (let i = 2; i * i <= n; i++) {",
+        "        if (n % i === 0) return false;",
+        "    }",
+        "    return n > 1;",
+        "};",
+        "const maxElement = (arr) => Math.max(...arr);",
+        "const minElement = (arr) => Math.min(...arr);",
+        "",
+        "console.log('Interview utilities loaded');"
+      ],
+      "description": "Pranjal Interview"
+    },
+  
+    "main function": {
+      "prefix": "mainjs",
+      "body": [
+        "const main = () => {",
+        "    let t = 1;",
+        "    while (t--) solve();",
+        "}",
+        "main();"
+      ],
+      "description": "Main function for JavaScript"
+    },
+  
+    "freqjs": {
+      "prefix": "freqjs",
+      "body": [
+        "const freq = new Map();",
+        "for (let i = 0; i < n; i++) {",
+        "    let x = prompt('Enter value:');",
+        "    freq.set(x, (freq.get(x) || 0) + 1);",
+        "}"
+      ],
+      "description": "Frequency map in JavaScript"
+    },
+  
+    "Basic Programming": {
+      "prefix": "jsbasic",
+      "body": [
+        "console.log('Basic JavaScript Program');",
+        "const main = () => {",
+        "    // Your code here",
+        "};",
+        "main();"
+      ],
+      "description": "Pranjal BASIC"
+    },
+  
+    "Hello World": {
+      "prefix": "hellojs",
+      "body": [
+        "console.log('Hello World');"
+      ],
+      "description": "Pranjal Hello World"
+    }
+  }
+  
